@@ -179,7 +179,7 @@ body {
                         </li>
                     </ul!-->
                     <form action="Orders" id="submitOrderForm" class="navbar-form pull-right">
-                        <button type="submit" class="btn">Checkout</button>
+                        <button type="submit" class="btn">무뀨</button>
                     </form>
                     <div class="pull-right" style="font-size: 2em; color: white; margin: 8px 1em 0 0;">
                         Items in cart: <span id="cart_num_items">0</span><span id="cart_amount"></span>
