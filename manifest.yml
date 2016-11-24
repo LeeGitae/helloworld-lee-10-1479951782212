@@ -1,0 +1,12 @@
+applications:
+- path: javaCloudantWorkloadSchedulerApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: helloworld-lee-10
+  host: helloworld-lee-10
+  disk_quota: 1024M
+  services:
+  - helloworld-lee-10-cloudantNoSQLDB
+  - helloworld-lee-10-WorkloadScheduler
+  - Auto-Scaling-3y
